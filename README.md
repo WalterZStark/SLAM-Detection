@@ -1,18 +1,20 @@
 # SLAM-Detection
-# Code to test the basics of SLAM and CV object detection
 
-# Change log
+Code to test the basics of SLAM and CV object detection
+
+## Change log:
 <details>
 <summary>7-16-2023</summary>
-Markup : * Haven't updated the README in a couple days
-* Fixed threading issues
-* Also added Yolo segmentation in YOLO.py
-* Renamed test-takeoff.py to test_takeoff.py due to issues calling it with the dash
-* created main.py as the main file for running all drone code
+    
+- Haven't updated the README in a couple days
+- Fixed threading issues
+- Also added Yolo segmentation in YOLO.py
+- Renamed test-takeoff.py to test_takeoff.py due to issues calling it with the dash
+- created main.py as the main file for running all drone code
 
 ![First Image](Images/7_16_Bottom_Camera.png)
 ![Second Image](Images/7_16_Front_Camera.png)
-</details>
+
 
 - Useful sources:
     - YOLO Predict Usage: https://docs.ultralytics.com/modes/predict/
@@ -21,20 +23,28 @@ Markup : * Haven't updated the README in a couple days
     - Segment Models: https://docs.ultralytics.com/tasks/segment/
     - Collab Showing Training: https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb#scrollTo=7ZW58jUzK66B
 
+</details>
 
-
-
-7-10-2023
+<details>
+<summary>7-10-2023</summary>
+    
 - Downgraded OpenCv to 4.5.2.52 to fix "raise TelloException('Failed to grab video frames from video stream')"
 - Made thread a daemon thread to be killed when program exits
 - created retrieve_images.py to get images from both the laptop camera and drone camera
 
-7-9-2023 - Second Push
+</details>
+
+<details>
+<summary>7-9-2023 - Second Push</summary>
+
 - Updated DJI Tello Firmware to latest version (2.05.01.19) on app to get down view capabilities 
 - Added down viewing capabilities
 
+</details>
 
-7-9-2023
+<details>
+<summary>7-9-2023</summary>
+    
 - Make sure to turn on Airplane mode before flying
 - Recieved Error: "djitellopy.tello.TelloException: Command 'left 100' was unsuccessful for 4 tries. Latest response:      'error No valid imu'"
     - Solved by holding down power button for 5 seconds and resetting wifi
@@ -42,4 +52,6 @@ Markup : * Haven't updated the README in a couple days
     - Used inspiration from: https://github.com/damiafuentes/DJITelloPy/blob/master/examples/record-video.py
 - Issues with Camera Feed being Blue
     - Solved with "im_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)"
+
+</details>
 
