@@ -1,1 +1,3 @@
-/*.pt
+
+# Ignore all .pt files
+*.pt
