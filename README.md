@@ -9,10 +9,10 @@
 - Also added Yolo segmentation in YOLO.py
 - Renamed test-takeoff.py to test_takeoff.py due to issues calling it with the dash
 - created main.py as the main file for running all drone code
-</details>
+
 ![First Image](Images/7_16_Bottom_Camera.png)
 ![Second Image](Images/7_16_Front_Camera.png)
-
+</details>
 
 - Useful sources:
     - YOLO Predict Usage: https://docs.ultralytics.com/modes/predict/
