@@ -4,7 +4,7 @@
 # Change log
 <details>
 <summary>7-16-2023</summary>
-* Haven't updated the README in a couple days
+Markup : * Haven't updated the README in a couple days
 * Fixed threading issues
 * Also added Yolo segmentation in YOLO.py
 * Renamed test-takeoff.py to test_takeoff.py due to issues calling it with the dash
