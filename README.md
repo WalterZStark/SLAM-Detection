@@ -1,8 +1,7 @@
 # SLAM-Detection
-# 
 # Code to test the basics of SLAM and CV object detection
 
-
+# Change log
 7-16-2023
 - Haven't updated the README in a couple days
 - Fixed threading issues
@@ -12,6 +11,14 @@
 
 ![First Image](Images/7_16_Bottom_Camera.png)
 ![Second Image](Images/7_16_Front_Camera.png)
+
+
+- Useful sources:
+    - YOLO Predict Usage: https://docs.ultralytics.com/modes/predict/
+    - YOLO Python Usage: https://docs.ultralytics.com/usage/python/
+    - Youtube Turoial: https://www.youtube.com/watch?v=IHbJcOex6dk&ab_channel=NicolaiNielsen
+    - Segment Models: https://docs.ultralytics.com/tasks/segment/
+    - Collab Showing Training: https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb#scrollTo=7ZW58jUzK66B
 
 
 
