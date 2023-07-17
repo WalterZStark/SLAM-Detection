@@ -23,6 +23,7 @@ Code to test the basics of SLAM and CV object detection
     - Adding Appearance Based Mapping: https://shivachandrachary.medium.com/introduction-to-3d-slam-with-rtab-map-8df39da2d293
     - Semi-Dense SLAM Mapping (using semantic segmentation, maybe label colors of points with the type of object it is): https://imaginghub.com/blog/17-simultaneous-localization-mapping-a-visual-slam-tutorial
     - Deep Fusion (Dense 3D reconstruction): https://arxiv.org/pdf/2207.12244.pdf
+    - ROS SLAM? : https://wiki.ros.org/image_geometry
  
 - Segmentation Training
     - Introduction to Image Segmentation: https://huggingface.co/tasks/image-segmentation
