@@ -4,6 +4,42 @@ Code to test the basics of SLAM and CV object detection
 
 ## Change log:
 <details>
+<summary>7-17-2023</summary>
+
+- Below are future plans
+- Steps for SLAM: https://www.mathworks.com/help/vision/ug/monocular-visual-simultaneous-localization-and-mapping.html
+    - Download Input Image Sequence
+    - Map Initialization
+    - Store Initial Key Frames and Map Points
+    - Initialize Place Recognition Database (https://ai.stackexchange.com/questions/21914/what-are-bag-of-features-in-computer-vision)
+    - Refine and Visualize Initial Reconstruction
+    - Tracking
+    - Local Mapping
+    - Loop Closure
+    - Compare to Ground Truth
+ 
+- Additional Features to Add to SLAM
+    - Implement EKF SLAM to introduce data from odometry: https://www.iri.upc.edu/people/jsola/JoanSola/objectes/curs_SLAM/SLAM2D/SLAM%20course.pdf
+    - Adding Appearance Based Mapping: https://shivachandrachary.medium.com/introduction-to-3d-slam-with-rtab-map-8df39da2d293
+    - Semi-Dense SLAM Mapping (using semantic segmentation, maybe label colors of points with the type of object it is): https://imaginghub.com/blog/17-simultaneous-localization-mapping-a-visual-slam-tutorial
+    - Deep Fusion (Dense 3D reconstruction): https://arxiv.org/pdf/2207.12244.pdf
+ 
+- Segmentation Training
+    - Introduction to Image Segmentation: https://huggingface.co/tasks/image-segmentation
+    - COCO Database (Image Database): https://cocodataset.org/#download
+    - Descriptions on how to test quality: https://iq.opengenus.org/pq-sq-rq/
+    - Creating custom semantic model: https://towardsdatascience.com/building-a-custom-semantic-segmentation-model-abb0843ac12d
+    - Tensor Flow Image Segmentation: https://www.tensorflow.org/tutorials/images/segmentation
+
+- LIDAR Research
+    - Unrelated potential ROS/LIDAR Project: https://automaticaddison.com/how-to-build-an-indoor-map-using-ros-and-lidar-based-slam/
+    - LIDAR Usage: https://towardsdatascience.com/indoor-robot-localization-with-slam-f8b447bcb865
+    
+
+  
+</details>
+
+<details>
 <summary>7-16-2023</summary>
     
 - Haven't updated the README in a couple days
@@ -19,7 +55,7 @@ Code to test the basics of SLAM and CV object detection
 - Useful sources:
     - YOLO Predict Usage: https://docs.ultralytics.com/modes/predict/
     - YOLO Python Usage: https://docs.ultralytics.com/usage/python/
-    - Youtube Turoial: https://www.youtube.com/watch?v=IHbJcOex6dk&ab_channel=NicolaiNielsen
+    - Youtube Tutorial: https://www.youtube.com/watch?v=IHbJcOex6dk&ab_channel=NicolaiNielsen
     - Segment Models: https://docs.ultralytics.com/tasks/segment/
     - Collab Showing Training: https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb#scrollTo=7ZW58jUzK66B
 
