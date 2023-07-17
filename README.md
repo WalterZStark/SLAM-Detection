@@ -33,6 +33,7 @@ Code to test the basics of SLAM and CV object detection
 
 - LIDAR Research
     - Unrelated potential ROS/LIDAR Project: https://automaticaddison.com/how-to-build-an-indoor-map-using-ros-and-lidar-based-slam/
+    - https://www.amazon.com/Slamtec-RPLIDAR-Scanning-Avoidance-Navigation/dp/B07TJW5SXF/ref=asc_df_B07TJW5SXF/?tag=hyprod-20&linkCode=df0&hvadid=385584089652&hvpos=&hvnetw=g&hvrand=12106434859228457822&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9028280&hvtargid=pla-833793200531&psc=1&tag=&ref=&adgrpid=76780761017&hvpone=&hvptwo=&hvadid=385584089652&hvpos=&hvnetw=g&hvrand=12106434859228457822&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9028280&hvtargid=pla-833793200531
     - LIDAR Usage: https://towardsdatascience.com/indoor-robot-localization-with-slam-f8b447bcb865
     
 
