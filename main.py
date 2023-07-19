@@ -5,10 +5,29 @@
 # Import Statements
 import cv2
 import time
+import os
+import sys
+from pathlib import Path
+
+# Inser path for SLAM scripts
+sys.path.insert(0, os.getcwd() + '\SLAM')
+print(os.getcwd() + '\SLAM')
+
+
+
 from retrieve_YOLO import outputSegment # using custom YOLO.py
 from retrieve_images import retrieve
+from data_downloader import downloadTest
 from threading import Thread
 from djitellopy import Tello
+
+# Downlaod SLAM Test Files
+url = "https://vision.in.tum.de/rgbd/dataset/freiburg3/rgbd_dataset_freiburg3_long_office_household.tgz"
+fileName = 'fr3_office.tgz'
+
+downloadTest(url,fileName)
+print("Passed Download Test")
+
 
 
 # Init tello
@@ -20,7 +39,7 @@ tello = Tello()
 keepRecording = True
 
 
-useDrone = True
+useDrone = False
 
 
 # Check if planning on using drone or laptop
@@ -35,8 +54,9 @@ if useDrone:
     # By default send command to turn on front Camera
     tello.send_command_with_return("downvision 0")
 
-frontvision = True
 
+
+frontvision = True
 
 vid = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
