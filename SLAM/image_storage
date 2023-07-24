@@ -1,0 +1,30 @@
+# image_storage.py 
+# Class for storing images
+# Written by Walter Stark
+import numpy as np
+
+class ImageStorage:
+    # Add initial indicies, points, and features for first image
+    def __init__(self,firstIndex,points,features):
+        
+        self.indices = np.array([firstIndex])
+        self.points = np.array([points])
+        self.features = np.array([features])
+    
+    # Append new image information to existing matricies
+    def addImage(self,currIndices, currPoints, currFeatures):
+        np.append(self.indices,currIndices)
+        np.append(self.points, currPoints)
+        np.append(self.features, currFeatures)
+    
+    # Returns matrix of indices
+    def getIndices(self):
+        return (self.indices)
+    
+    # Returns matrix of points
+    def getPoints(self):
+        return (self.points)
+
+    # Returns matrix of features
+    def getFeatures(self):
+        return (self.features)
