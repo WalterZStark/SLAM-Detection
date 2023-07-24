@@ -4,6 +4,14 @@ Code to test the basics of SLAM and CV object detection
 
 ## Change log:
 <details>
+<summary>7-24-2023</summary>
+
+- Added map creation ability to triangulate with two images
+- ![Triangulation](Images/7_24_Triangulation)
+
+</details>
+
+<details>
 <summary>7-17-2023</summary>
 
 - Below are future plans
