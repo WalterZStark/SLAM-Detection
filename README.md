@@ -1,6 +1,6 @@
 # SLAM-Detection
 
-Code to test the basics of SLAM and CV object detection
+Personal to test the basics of SLAM and CV object detection (incomplete)
 
 ## Change log:
 <details>
